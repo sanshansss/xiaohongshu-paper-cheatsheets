@@ -1,0 +1,30 @@
+标题：COLM26｜把 VLM 拆开再拼起来看 RL
+来源：https://www.xiaohongshu.com/explore/6ac2d7f6000000001a023ee6
+保存日期：2026-10-07
+
+📄 论文：What does RL improve for Visual Reasoning? A Frankenstein-Style Analysis
+🏛 University of Maryland / MBZUAI（Li, Li, Zhou）
+🎓 COLM 2026
+🔗 arXiv:2602.12395
+	
+✨ 一句话
+一篇分析论文（不提出新的训练方法）：把三个公开的 IN+RL 视觉推理 VLM 按 transformer 层拆成 Early / Middle / Late 三段，做定位、参数比较、拼装和冻结。
+👉 结论：RL 稳定带来的不是全面更强的视觉感知，而是 Middle–Late 层的精修，体现为 vision-to-reasoning alignment 和 reasoning 的提升。
+	
+🤔 问题：benchmark 涨了，到底是什么变强了？
+VLM 的后训练常用两阶段：先 SFT 作为初始化（IN），再做带 verifiable reward 的 RL。
+分数上升可能有三种来源：
+👁 视觉感知变好
+🔗 reasoning 更会利用已有的视觉证据
+💬 纯语言侧的 reasoning 变强
+端到端准确率分不清这三者。
+	
+💡 方案：三步分析 + 一步验证
+1️⃣ 定位（causal probing）：vision token swapping + layer skipping，找出 Early / Middle / Late 各管什么
+2️⃣ 比较（parameter comparison）：看 IN 和 RL 的参数更新，Frobenius norm 和奇异值谱
+3️⃣ 拼装（model merging）：把 IN 和 RL 的三段层剪开互换，拼成 6 个混合模型，测可迁移性
+4️⃣ 冻结（model freezing）：RL 训练时冻住其中一段，测必要性
+	
+我把这篇论文整理成了一份中文速查表（方法、设置、关键数字都在里面），需要的可以看图 👀
+	
+#论文分享 #COLM2026 #VLM #多模态 #强化学习 #视觉推理 #大模型 #AI论文 #读论文 #科研日常

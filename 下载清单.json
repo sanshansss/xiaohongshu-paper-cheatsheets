@@ -1,0 +1,1568 @@
+{
+  "date": "2026-10-07",
+  "profile": "https://www.xiaohongshu.com/user/profile/6a0720ba0000000002002001",
+  "browser_posts_seen": 62,
+  "saved_posts": 40,
+  "images": 141,
+  "image_bytes": 36996634,
+  "decode_failures": [],
+  "records": [
+    {
+      "id": "6ac415a9000000001500c63f",
+      "title": "500+ 篇工作｜Agentic RL 综述速览",
+      "url": "https://www.xiaohongshu.com/explore/6ac415a9000000001500c63f",
+      "folder": "posts/500+ 篇工作｜Agentic RL 综述速览_6ac415a9000000001500c63f",
+      "count": 4,
+      "files": [
+        "01.webp",
+        "02.webp",
+        "03.webp",
+        "04.webp"
+      ],
+      "category": "论文解读、综述与速查表",
+      "images": [
+        {
+          "file": "01.webp",
+          "width": 1528,
+          "height": 1080,
+          "bytes": 287360
+        },
+        {
+          "file": "02.webp",
+          "width": 1528,
+          "height": 1080,
+          "bytes": 330352
+        },
+        {
+          "file": "03.webp",
+          "width": 1528,
+          "height": 1080,
+          "bytes": 327654
+        },
+        {
+          "file": "04.webp",
+          "width": 1528,
+          "height": 1080,
+          "bytes": 305590
+        }
+      ]
+    },
+    {
+      "id": "6ac1c20f000000001301a880",
+      "title": "AC2: Trust the Critic More | 斯坦福大学",
+      "url": "https://www.xiaohongshu.com/explore/6ac1c20f000000001301a880",
+      "folder": "posts/AC2_ Trust the Critic More _ 斯坦福大学_6ac1c20f000000001301a880",
+      "count": 4,
+      "files": [
+        "01.webp",
+        "02.webp",
+        "03.webp",
+        "04.webp"
+      ],
+      "category": "论文解读、综述与速查表",
+      "images": [
+        {
+          "file": "01.webp",
+          "width": 1530,
+          "height": 1080,
+          "bytes": 209418
+        },
+        {
+          "file": "02.webp",
+          "width": 1530,
+          "height": 1080,
+          "bytes": 234486
+        },
+        {
+          "file": "03.webp",
+          "width": 1530,
+          "height": 1080,
+          "bytes": 204118
+        },
+        {
+          "file": "04.webp",
+          "width": 1530,
+          "height": 1080,
+          "bytes": 175408
+        }
+      ]
+    },
+    {
+      "id": "6ac2cf56000000001802d32a",
+      "title": "ACL25｜用梯度看 fast vs slow thinking",
+      "url": "https://www.xiaohongshu.com/explore/6ac2cf56000000001802d32a",
+      "folder": "posts/ACL25｜用梯度看 fast vs slow thinking_6ac2cf56000000001802d32a",
+      "count": 4,
+      "files": [
+        "01.webp",
+        "02.webp",
+        "03.webp",
+        "04.webp"
+      ],
+      "category": "论文解读、综述与速查表",
+      "images": [
+        {
+          "file": "01.webp",
+          "width": 1524,
+          "height": 1080,
+          "bytes": 250058
+        },
+        {
+          "file": "02.webp",
+          "width": 1524,
+          "height": 1080,
+          "bytes": 260406
+        },
+        {
+          "file": "03.webp",
+          "width": 1524,
+          "height": 1080,
+          "bytes": 241036
+        },
+        {
+          "file": "04.webp",
+          "width": 1524,
+          "height": 1080,
+          "bytes": 259716
+        }
+      ]
+    },
+    {
+      "id": "6ac31526000000001c00f911",
+      "title": "ACL26｜高质量数据在梯度上长什么样？",
+      "url": "https://www.xiaohongshu.com/explore/6ac31526000000001c00f911",
+      "folder": "posts/ACL26｜高质量数据在梯度上长什么样？_6ac31526000000001c00f911",
+      "count": 4,
+      "files": [
+        "01.webp",
+        "02.webp",
+        "03.webp",
+        "04.webp"
+      ],
+      "category": "论文解读、综述与速查表",
+      "images": [
+        {
+          "file": "01.webp",
+          "width": 1530,
+          "height": 1080,
+          "bytes": 236424
+        },
+        {
+          "file": "02.webp",
+          "width": 1530,
+          "height": 1080,
+          "bytes": 235984
+        },
+        {
+          "file": "03.webp",
+          "width": 1530,
+          "height": 1080,
+          "bytes": 264394
+        },
+        {
+          "file": "04.webp",
+          "width": 1530,
+          "height": 1080,
+          "bytes": 348002
+        }
+      ]
+    },
+    {
+      "id": "6ac134b1000000001203a8ce",
+      "title": "AgeMem | ACL 2026",
+      "url": "https://www.xiaohongshu.com/explore/6ac134b1000000001203a8ce",
+      "folder": "posts/AgeMem _ ACL 2026_6ac134b1000000001203a8ce",
+      "count": 4,
+      "files": [
+        "01.webp",
+        "02.webp",
+        "03.webp",
+        "04.webp"
+      ],
+      "category": "论文解读、综述与速查表",
+      "images": [
+        {
+          "file": "01.webp",
+          "width": 1531,
+          "height": 1080,
+          "bytes": 289780
+        },
+        {
+          "file": "02.webp",
+          "width": 1531,
+          "height": 1080,
+          "bytes": 281982
+        },
+        {
+          "file": "03.webp",
+          "width": 1531,
+          "height": 1080,
+          "bytes": 211290
+        },
+        {
+          "file": "04.webp",
+          "width": 1531,
+          "height": 1080,
+          "bytes": 219476
+        }
+      ]
+    },
+    {
+      "id": "6ac414a70000000018039e85",
+      "title": "Agent Memory 综述｜形式、功能、动态",
+      "url": "https://www.xiaohongshu.com/explore/6ac414a70000000018039e85",
+      "folder": "posts/Agent Memory 综述｜形式、功能、动态_6ac414a70000000018039e85",
+      "count": 4,
+      "files": [
+        "01.webp",
+        "02.webp",
+        "03.webp",
+        "04.webp"
+      ],
+      "category": "论文解读、综述与速查表",
+      "images": [
+        {
+          "file": "01.webp",
+          "width": 1528,
+          "height": 1080,
+          "bytes": 287290
+        },
+        {
+          "file": "02.webp",
+          "width": 1526,
+          "height": 1080,
+          "bytes": 356718
+        },
+        {
+          "file": "03.webp",
+          "width": 1524,
+          "height": 1080,
+          "bytes": 321100
+        },
+        {
+          "file": "04.webp",
+          "width": 1524,
+          "height": 1080,
+          "bytes": 328232
+        }
+      ]
+    },
+    {
+      "id": "6ab9df8000000000130181be",
+      "title": "Agentic RL速查表",
+      "url": "https://www.xiaohongshu.com/explore/6ab9df8000000000130181be",
+      "folder": "posts/Agentic RL速查表_6ab9df8000000000130181be",
+      "count": 3,
+      "files": [
+        "01.webp",
+        "02.webp",
+        "03.webp"
+      ],
+      "category": "论文解读、综述与速查表",
+      "images": [
+        {
+          "file": "01.webp",
+          "width": 1530,
+          "height": 1080,
+          "bytes": 277998
+        },
+        {
+          "file": "02.webp",
+          "width": 1530,
+          "height": 1080,
+          "bytes": 314578
+        },
+        {
+          "file": "03.webp",
+          "width": 1530,
+          "height": 1080,
+          "bytes": 229668
+        }
+      ]
+    },
+    {
+      "id": "6ac2d7f6000000001a023ee6",
+      "title": "COLM26｜把 VLM 拆开再拼起来看 RL",
+      "url": "https://www.xiaohongshu.com/explore/6ac2d7f6000000001a023ee6",
+      "folder": "posts/COLM26｜把 VLM 拆开再拼起来看 RL_6ac2d7f6000000001a023ee6",
+      "count": 4,
+      "files": [
+        "01.webp",
+        "02.webp",
+        "03.webp",
+        "04.webp"
+      ],
+      "category": "论文解读、综述与速查表",
+      "images": [
+        {
+          "file": "01.webp",
+          "width": 1527,
+          "height": 1080,
+          "bytes": 292720
+        },
+        {
+          "file": "02.webp",
+          "width": 1527,
+          "height": 1080,
+          "bytes": 262328
+        },
+        {
+          "file": "03.webp",
+          "width": 1527,
+          "height": 1080,
+          "bytes": 250696
+        },
+        {
+          "file": "04.webp",
+          "width": 1527,
+          "height": 1080,
+          "bytes": 296382
+        }
+      ]
+    },
+    {
+      "id": "6ac31385000000001a0231a1",
+      "title": "CVPR24 Oral｜多模态大模型的视觉短板",
+      "url": "https://www.xiaohongshu.com/explore/6ac31385000000001a0231a1",
+      "folder": "posts/CVPR24 Oral｜多模态大模型的视觉短板_6ac31385000000001a0231a1",
+      "count": 4,
+      "files": [
+        "01.webp",
+        "02.webp",
+        "03.webp",
+        "04.webp"
+      ],
+      "category": "论文解读、综述与速查表",
+      "images": [
+        {
+          "file": "01.webp",
+          "width": 1530,
+          "height": 1080,
+          "bytes": 263160
+        },
+        {
+          "file": "02.webp",
+          "width": 1530,
+          "height": 1080,
+          "bytes": 253306
+        },
+        {
+          "file": "03.webp",
+          "width": 1530,
+          "height": 1080,
+          "bytes": 225614
+        },
+        {
+          "file": "04.webp",
+          "width": 1530,
+          "height": 1080,
+          "bytes": 203532
+        }
+      ]
+    },
+    {
+      "id": "6ac31f74000000001a02aa64",
+      "title": "CVPR26｜给 VLM 加短期和长期视觉记忆",
+      "url": "https://www.xiaohongshu.com/explore/6ac31f74000000001a02aa64",
+      "folder": "posts/CVPR26｜给 VLM 加短期和长期视觉记忆_6ac31f74000000001a02aa64",
+      "count": 4,
+      "files": [
+        "01.webp",
+        "02.webp",
+        "03.webp",
+        "04.webp"
+      ],
+      "category": "论文解读、综述与速查表",
+      "images": [
+        {
+          "file": "01.webp",
+          "width": 1530,
+          "height": 1080,
+          "bytes": 302586
+        },
+        {
+          "file": "02.webp",
+          "width": 1530,
+          "height": 1080,
+          "bytes": 234568
+        },
+        {
+          "file": "03.webp",
+          "width": 1530,
+          "height": 1080,
+          "bytes": 306764
+        },
+        {
+          "file": "04.webp",
+          "width": 1530,
+          "height": 1080,
+          "bytes": 247862
+        }
+      ]
+    },
+    {
+      "id": "6ac1bf55000000001203489d",
+      "title": "Fintuning with Sampling | 哈佛大学",
+      "url": "https://www.xiaohongshu.com/explore/6ac1bf55000000001203489d",
+      "folder": "posts/Fintuning with Sampling _ 哈佛大学_6ac1bf55000000001203489d",
+      "count": 4,
+      "files": [
+        "01.webp",
+        "02.webp",
+        "03.webp",
+        "04.webp"
+      ],
+      "category": "论文解读、综述与速查表",
+      "images": [
+        {
+          "file": "01.webp",
+          "width": 1530,
+          "height": 1080,
+          "bytes": 195782
+        },
+        {
+          "file": "02.webp",
+          "width": 1530,
+          "height": 1080,
+          "bytes": 245878
+        },
+        {
+          "file": "03.webp",
+          "width": 1530,
+          "height": 1080,
+          "bytes": 278960
+        },
+        {
+          "file": "04.webp",
+          "width": 1530,
+          "height": 1080,
+          "bytes": 160300
+        }
+      ]
+    },
+    {
+      "id": "6ac13d7f0000000015014e2a",
+      "title": "GEB | Long-Video Memory",
+      "url": "https://www.xiaohongshu.com/explore/6ac13d7f0000000015014e2a",
+      "folder": "posts/GEB _ Long-Video Memory_6ac13d7f0000000015014e2a",
+      "count": 4,
+      "files": [
+        "01.webp",
+        "02.webp",
+        "03.webp",
+        "04.webp"
+      ],
+      "category": "论文解读、综述与速查表",
+      "images": [
+        {
+          "file": "01.webp",
+          "width": 1531,
+          "height": 1080,
+          "bytes": 286334
+        },
+        {
+          "file": "02.webp",
+          "width": 1531,
+          "height": 1080,
+          "bytes": 192488
+        },
+        {
+          "file": "03.webp",
+          "width": 1531,
+          "height": 1080,
+          "bytes": 258612
+        },
+        {
+          "file": "04.webp",
+          "width": 1537,
+          "height": 1080,
+          "bytes": 315650
+        }
+      ]
+    },
+    {
+      "id": "6ac07783000000001500e516",
+      "title": "GRPO | DeepSeek",
+      "url": "https://www.xiaohongshu.com/explore/6ac07783000000001500e516",
+      "folder": "posts/GRPO _ DeepSeek_6ac07783000000001500e516",
+      "count": 4,
+      "files": [
+        "01.webp",
+        "02.webp",
+        "03.webp",
+        "04.webp"
+      ],
+      "category": "论文解读、综述与速查表",
+      "images": [
+        {
+          "file": "01.webp",
+          "width": 1536,
+          "height": 1080,
+          "bytes": 196112
+        },
+        {
+          "file": "02.webp",
+          "width": 1524,
+          "height": 1080,
+          "bytes": 220836
+        },
+        {
+          "file": "03.webp",
+          "width": 1531,
+          "height": 1080,
+          "bytes": 249900
+        },
+        {
+          "file": "04.webp",
+          "width": 1531,
+          "height": 1080,
+          "bytes": 264378
+        }
+      ]
+    },
+    {
+      "id": "6ab9d28c0000000013019276",
+      "title": "Harvard: 论文写作四步法",
+      "url": "https://www.xiaohongshu.com/explore/6ab9d28c0000000013019276",
+      "folder": "posts/Harvard_ 论文写作四步法_6ab9d28c0000000013019276",
+      "count": 1,
+      "files": [
+        "01.webp"
+      ],
+      "category": "相关学术与课程资料",
+      "images": [
+        {
+          "file": "01.webp",
+          "width": 1529,
+          "height": 1080,
+          "bytes": 215748
+        }
+      ]
+    },
+    {
+      "id": "6ac31dab0000000012035da7",
+      "title": "ICLR26｜给多智能体系统做故障归因",
+      "url": "https://www.xiaohongshu.com/explore/6ac31dab0000000012035da7",
+      "folder": "posts/ICLR26｜给多智能体系统做故障归因_6ac31dab0000000012035da7",
+      "count": 4,
+      "files": [
+        "01.webp",
+        "02.webp",
+        "03.webp",
+        "04.webp"
+      ],
+      "category": "论文解读、综述与速查表",
+      "images": [
+        {
+          "file": "01.webp",
+          "width": 1530,
+          "height": 1080,
+          "bytes": 304258
+        },
+        {
+          "file": "02.webp",
+          "width": 1530,
+          "height": 1080,
+          "bytes": 312020
+        },
+        {
+          "file": "03.webp",
+          "width": 1530,
+          "height": 1080,
+          "bytes": 298738
+        },
+        {
+          "file": "04.webp",
+          "width": 1530,
+          "height": 1080,
+          "bytes": 232402
+        }
+      ]
+    },
+    {
+      "id": "6ac31e64000000001500a650",
+      "title": "ICML26｜把记忆 agent 的稀疏 reward 变密",
+      "url": "https://www.xiaohongshu.com/explore/6ac31e64000000001500a650",
+      "folder": "posts/ICML26｜把记忆 agent 的稀疏 reward 变密_6ac31e64000000001500a650",
+      "count": 4,
+      "files": [
+        "01.webp",
+        "02.webp",
+        "03.webp",
+        "04.webp"
+      ],
+      "category": "论文解读、综述与速查表",
+      "images": [
+        {
+          "file": "01.webp",
+          "width": 1530,
+          "height": 1080,
+          "bytes": 288924
+        },
+        {
+          "file": "02.webp",
+          "width": 1530,
+          "height": 1080,
+          "bytes": 328956
+        },
+        {
+          "file": "03.webp",
+          "width": 1530,
+          "height": 1080,
+          "bytes": 295284
+        },
+        {
+          "file": "04.webp",
+          "width": 1530,
+          "height": 1080,
+          "bytes": 302536
+        }
+      ]
+    },
+    {
+      "id": "6ac31e02000000001203db69",
+      "title": "ICML26｜让 agent 的记忆架构也能进化",
+      "url": "https://www.xiaohongshu.com/explore/6ac31e02000000001203db69",
+      "folder": "posts/ICML26｜让 agent 的记忆架构也能进化_6ac31e02000000001203db69",
+      "count": 4,
+      "files": [
+        "01.webp",
+        "02.webp",
+        "03.webp",
+        "04.webp"
+      ],
+      "category": "论文解读、综述与速查表",
+      "images": [
+        {
+          "file": "01.webp",
+          "width": 1530,
+          "height": 1080,
+          "bytes": 295692
+        },
+        {
+          "file": "02.webp",
+          "width": 1530,
+          "height": 1080,
+          "bytes": 317360
+        },
+        {
+          "file": "03.webp",
+          "width": 1530,
+          "height": 1080,
+          "bytes": 345518
+        },
+        {
+          "file": "04.webp",
+          "width": 1530,
+          "height": 1080,
+          "bytes": 335088
+        }
+      ]
+    },
+    {
+      "id": "6abb2ef4000000001c00e4d0",
+      "title": "LLM Agentic Reasoning速查表",
+      "url": "https://www.xiaohongshu.com/explore/6abb2ef4000000001c00e4d0",
+      "folder": "posts/LLM Agentic Reasoning速查表_6abb2ef4000000001c00e4d0",
+      "count": 4,
+      "files": [
+        "01.webp",
+        "02.webp",
+        "03.webp",
+        "04.webp"
+      ],
+      "category": "论文解读、综述与速查表",
+      "images": [
+        {
+          "file": "01.webp",
+          "width": 1536,
+          "height": 1080,
+          "bytes": 268526
+        },
+        {
+          "file": "02.webp",
+          "width": 1536,
+          "height": 1080,
+          "bytes": 236382
+        },
+        {
+          "file": "03.webp",
+          "width": 1536,
+          "height": 1080,
+          "bytes": 263214
+        },
+        {
+          "file": "04.webp",
+          "width": 1530,
+          "height": 1080,
+          "bytes": 212242
+        }
+      ]
+    },
+    {
+      "id": "6ac13467000000001a02afdf",
+      "title": "MemAgent | ICLR26 Oral",
+      "url": "https://www.xiaohongshu.com/explore/6ac13467000000001a02afdf",
+      "folder": "posts/MemAgent _ ICLR26 Oral_6ac13467000000001a02afdf",
+      "count": 4,
+      "files": [
+        "01.webp",
+        "02.webp",
+        "03.webp",
+        "04.webp"
+      ],
+      "category": "论文解读、综述与速查表",
+      "images": [
+        {
+          "file": "01.webp",
+          "width": 1531,
+          "height": 1080,
+          "bytes": 231824
+        },
+        {
+          "file": "02.webp",
+          "width": 1531,
+          "height": 1080,
+          "bytes": 218246
+        },
+        {
+          "file": "03.webp",
+          "width": 1531,
+          "height": 1080,
+          "bytes": 273582
+        },
+        {
+          "file": "04.webp",
+          "width": 1531,
+          "height": 1080,
+          "bytes": 234678
+        }
+      ]
+    },
+    {
+      "id": "6ac13d540000000015014df8",
+      "title": "Memory-Explorer | CVPR26",
+      "url": "https://www.xiaohongshu.com/explore/6ac13d540000000015014df8",
+      "folder": "posts/Memory-Explorer _ CVPR26_6ac13d540000000015014df8",
+      "count": 4,
+      "files": [
+        "01.webp",
+        "02.webp",
+        "03.webp",
+        "04.webp"
+      ],
+      "category": "论文解读、综述与速查表",
+      "images": [
+        {
+          "file": "01.webp",
+          "width": 1537,
+          "height": 1080,
+          "bytes": 243532
+        },
+        {
+          "file": "02.webp",
+          "width": 1537,
+          "height": 1080,
+          "bytes": 252894
+        },
+        {
+          "file": "03.webp",
+          "width": 1537,
+          "height": 1080,
+          "bytes": 246042
+        },
+        {
+          "file": "04.webp",
+          "width": 1537,
+          "height": 1080,
+          "bytes": 269014
+        }
+      ]
+    },
+    {
+      "id": "6abfd2850000000018039e34",
+      "title": "Memory-R1 | ACL 2026",
+      "url": "https://www.xiaohongshu.com/explore/6abfd2850000000018039e34",
+      "folder": "posts/Memory-R1 _ ACL 2026_6abfd2850000000018039e34",
+      "count": 4,
+      "files": [
+        "01.webp",
+        "02.webp",
+        "03.webp",
+        "04.webp"
+      ],
+      "category": "论文解读、综述与速查表",
+      "images": [
+        {
+          "file": "01.webp",
+          "width": 1527,
+          "height": 1080,
+          "bytes": 246710
+        },
+        {
+          "file": "02.webp",
+          "width": 1529,
+          "height": 1080,
+          "bytes": 219254
+        },
+        {
+          "file": "03.webp",
+          "width": 1529,
+          "height": 1080,
+          "bytes": 289364
+        },
+        {
+          "file": "04.webp",
+          "width": 1529,
+          "height": 1080,
+          "bytes": 179612
+        }
+      ]
+    },
+    {
+      "id": "6ab9dfda000000001500ad91",
+      "title": "Multimodal RL速查表",
+      "url": "https://www.xiaohongshu.com/explore/6ab9dfda000000001500ad91",
+      "folder": "posts/Multimodal RL速查表_6ab9dfda000000001500ad91",
+      "count": 3,
+      "files": [
+        "01.webp",
+        "02.webp",
+        "03.webp"
+      ],
+      "category": "论文解读、综述与速查表",
+      "images": [
+        {
+          "file": "01.webp",
+          "width": 1530,
+          "height": 1080,
+          "bytes": 301162
+        },
+        {
+          "file": "02.webp",
+          "width": 1526,
+          "height": 1080,
+          "bytes": 318274
+        },
+        {
+          "file": "03.webp",
+          "width": 1530,
+          "height": 1080,
+          "bytes": 234594
+        }
+      ]
+    },
+    {
+      "id": "6ac31343000000001203f4a6",
+      "title": "NeurIPS24 Oral｜23 个视觉编码器大比拼",
+      "url": "https://www.xiaohongshu.com/explore/6ac31343000000001203f4a6",
+      "folder": "posts/NeurIPS24 Oral｜23 个视觉编码器大比拼_6ac31343000000001203f4a6",
+      "count": 4,
+      "files": [
+        "01.webp",
+        "02.webp",
+        "03.webp",
+        "04.webp"
+      ],
+      "category": "论文解读、综述与速查表",
+      "images": [
+        {
+          "file": "01.webp",
+          "width": 1530,
+          "height": 1080,
+          "bytes": 277146
+        },
+        {
+          "file": "02.webp",
+          "width": 1530,
+          "height": 1080,
+          "bytes": 294854
+        },
+        {
+          "file": "03.webp",
+          "width": 1530,
+          "height": 1080,
+          "bytes": 303950
+        },
+        {
+          "file": "04.webp",
+          "width": 1530,
+          "height": 1080,
+          "bytes": 303752
+        }
+      ]
+    },
+    {
+      "id": "6abbe30200000000130190bb",
+      "title": "NeurIPS26: Memory-R2 & LoGo-GRPO速查表",
+      "url": "https://www.xiaohongshu.com/explore/6abbe30200000000130190bb",
+      "folder": "posts/NeurIPS26_ Memory-R2 & LoGo-GRPO速查表_6abbe30200000000130190bb",
+      "count": 3,
+      "files": [
+        "01.webp",
+        "02.webp",
+        "03.webp"
+      ],
+      "category": "论文解读、综述与速查表",
+      "images": [
+        {
+          "file": "01.webp",
+          "width": 1526,
+          "height": 1080,
+          "bytes": 256278
+        },
+        {
+          "file": "02.webp",
+          "width": 1526,
+          "height": 1080,
+          "bytes": 255080
+        },
+        {
+          "file": "03.webp",
+          "width": 1526,
+          "height": 1080,
+          "bytes": 262550
+        }
+      ]
+    },
+    {
+      "id": "6ac07766000000001b02ead3",
+      "title": "PPO | OpenAI",
+      "url": "https://www.xiaohongshu.com/explore/6ac07766000000001b02ead3",
+      "folder": "posts/PPO _ OpenAI_6ac07766000000001b02ead3",
+      "count": 4,
+      "files": [
+        "01.webp",
+        "02.webp",
+        "03.webp",
+        "04.webp"
+      ],
+      "category": "论文解读、综述与速查表",
+      "images": [
+        {
+          "file": "01.webp",
+          "width": 1528,
+          "height": 1080,
+          "bytes": 191142
+        },
+        {
+          "file": "02.webp",
+          "width": 1528,
+          "height": 1080,
+          "bytes": 192906
+        },
+        {
+          "file": "03.webp",
+          "width": 1528,
+          "height": 1080,
+          "bytes": 181430
+        },
+        {
+          "file": "04.webp",
+          "width": 1528,
+          "height": 1080,
+          "bytes": 192466
+        }
+      ]
+    },
+    {
+      "id": "6abf10f9000000001b02cb75",
+      "title": "Reasoning, PRM, 工业级RL速查表",
+      "url": "https://www.xiaohongshu.com/explore/6abf10f9000000001b02cb75",
+      "folder": "posts/Reasoning, PRM, 工业级RL速查表_6abf10f9000000001b02cb75",
+      "count": 3,
+      "files": [
+        "01.webp",
+        "02.webp",
+        "03.webp"
+      ],
+      "category": "论文解读、综述与速查表",
+      "images": [
+        {
+          "file": "01.webp",
+          "width": 1528,
+          "height": 1080,
+          "bytes": 319098
+        },
+        {
+          "file": "02.webp",
+          "width": 1528,
+          "height": 1080,
+          "bytes": 317304
+        },
+        {
+          "file": "03.webp",
+          "width": 1528,
+          "height": 1080,
+          "bytes": 233844
+        }
+      ]
+    },
+    {
+      "id": "6abf0d0200000000180396a4",
+      "title": "RLHF DPO GRPO速查表",
+      "url": "https://www.xiaohongshu.com/explore/6abf0d0200000000180396a4",
+      "folder": "posts/RLHF DPO GRPO速查表_6abf0d0200000000180396a4",
+      "count": 3,
+      "files": [
+        "01.webp",
+        "02.webp",
+        "03.webp"
+      ],
+      "category": "论文解读、综述与速查表",
+      "images": [
+        {
+          "file": "01.webp",
+          "width": 1537,
+          "height": 1080,
+          "bytes": 313416
+        },
+        {
+          "file": "02.webp",
+          "width": 1537,
+          "height": 1080,
+          "bytes": 301768
+        },
+        {
+          "file": "03.webp",
+          "width": 1537,
+          "height": 1080,
+          "bytes": 284312
+        }
+      ]
+    },
+    {
+      "id": "6abf111d000000001500ac3d",
+      "title": "RL中的数学速查表",
+      "url": "https://www.xiaohongshu.com/explore/6abf111d000000001500ac3d",
+      "folder": "posts/RL中的数学速查表_6abf111d000000001500ac3d",
+      "count": 3,
+      "files": [
+        "01.webp",
+        "02.webp",
+        "03.webp"
+      ],
+      "category": "论文解读、综述与速查表",
+      "images": [
+        {
+          "file": "01.webp",
+          "width": 1524,
+          "height": 1080,
+          "bytes": 270740
+        },
+        {
+          "file": "02.webp",
+          "width": 1524,
+          "height": 1080,
+          "bytes": 261962
+        },
+        {
+          "file": "03.webp",
+          "width": 1528,
+          "height": 1080,
+          "bytes": 243540
+        }
+      ]
+    },
+    {
+      "id": "6abf0db1000000001802ec64",
+      "title": "RL基础速查表",
+      "url": "https://www.xiaohongshu.com/explore/6abf0db1000000001802ec64",
+      "folder": "posts/RL基础速查表_6abf0db1000000001802ec64",
+      "count": 3,
+      "files": [
+        "01.webp",
+        "02.webp",
+        "03.webp"
+      ],
+      "category": "论文解读、综述与速查表",
+      "images": [
+        {
+          "file": "01.webp",
+          "width": 1527,
+          "height": 1080,
+          "bytes": 287886
+        },
+        {
+          "file": "02.webp",
+          "width": 1527,
+          "height": 1080,
+          "bytes": 279048
+        },
+        {
+          "file": "03.webp",
+          "width": 1527,
+          "height": 1080,
+          "bytes": 263762
+        }
+      ]
+    },
+    {
+      "id": "6abf115c000000001803a21d",
+      "title": "RL核心算法代码与训练调试",
+      "url": "https://www.xiaohongshu.com/explore/6abf115c000000001803a21d",
+      "folder": "posts/RL核心算法代码与训练调试_6abf115c000000001803a21d",
+      "count": 3,
+      "files": [
+        "01.webp",
+        "02.webp",
+        "03.webp"
+      ],
+      "category": "论文解读、综述与速查表",
+      "images": [
+        {
+          "file": "01.webp",
+          "width": 1528,
+          "height": 1080,
+          "bytes": 244434
+        },
+        {
+          "file": "02.webp",
+          "width": 1528,
+          "height": 1080,
+          "bytes": 307268
+        },
+        {
+          "file": "03.webp",
+          "width": 1532,
+          "height": 1080,
+          "bytes": 231768
+        }
+      ]
+    },
+    {
+      "id": "6ac069fd000000001a021286",
+      "title": "Search-R1 | COLM 2025",
+      "url": "https://www.xiaohongshu.com/explore/6ac069fd000000001a021286",
+      "folder": "posts/Search-R1 _ COLM 2025_6ac069fd000000001a021286",
+      "count": 4,
+      "files": [
+        "01.webp",
+        "02.webp",
+        "03.webp",
+        "04.webp"
+      ],
+      "category": "论文解读、综述与速查表",
+      "images": [
+        {
+          "file": "01.webp",
+          "width": 1533,
+          "height": 1080,
+          "bytes": 214892
+        },
+        {
+          "file": "02.webp",
+          "width": 1533,
+          "height": 1080,
+          "bytes": 207886
+        },
+        {
+          "file": "03.webp",
+          "width": 1527,
+          "height": 1080,
+          "bytes": 224562
+        },
+        {
+          "file": "04.webp",
+          "width": 1527,
+          "height": 1080,
+          "bytes": 239970
+        }
+      ]
+    },
+    {
+      "id": "6abf1541000000001a02be6a",
+      "title": "Stanford CS329Z: Agentic System导论",
+      "url": "https://www.xiaohongshu.com/explore/6abf1541000000001a02be6a",
+      "folder": "posts/Stanford CS329Z_ Agentic System导论_6abf1541000000001a02be6a",
+      "count": 3,
+      "files": [
+        "01.webp",
+        "02.webp",
+        "03.webp"
+      ],
+      "category": "相关学术与课程资料",
+      "images": [
+        {
+          "file": "01.webp",
+          "width": 1532,
+          "height": 1080,
+          "bytes": 265370
+        },
+        {
+          "file": "02.webp",
+          "width": 1532,
+          "height": 1080,
+          "bytes": 262148
+        },
+        {
+          "file": "03.webp",
+          "width": 1532,
+          "height": 1080,
+          "bytes": 315928
+        }
+      ]
+    },
+    {
+      "id": "6abf1595000000001802c377",
+      "title": "Stanford CS329Z: LLMs for Builder",
+      "url": "https://www.xiaohongshu.com/explore/6abf1595000000001802c377",
+      "folder": "posts/Stanford CS329Z_ LLMs for Builder_6abf1595000000001802c377",
+      "count": 4,
+      "files": [
+        "01.webp",
+        "02.webp",
+        "03.webp",
+        "04.webp"
+      ],
+      "category": "相关学术与课程资料",
+      "images": [
+        {
+          "file": "01.webp",
+          "width": 1532,
+          "height": 1080,
+          "bytes": 242612
+        },
+        {
+          "file": "02.webp",
+          "width": 1532,
+          "height": 1080,
+          "bytes": 312210
+        },
+        {
+          "file": "03.webp",
+          "width": 1532,
+          "height": 1080,
+          "bytes": 269986
+        },
+        {
+          "file": "04.webp",
+          "width": 1530,
+          "height": 1080,
+          "bytes": 258828
+        }
+      ]
+    },
+    {
+      "id": "6abf15e5000000001802c48c",
+      "title": "Stanford CS329Z: RAG + Agents",
+      "url": "https://www.xiaohongshu.com/explore/6abf15e5000000001802c48c",
+      "folder": "posts/Stanford CS329Z_ RAG + Agents_6abf15e5000000001802c48c",
+      "count": 3,
+      "files": [
+        "01.webp",
+        "02.webp",
+        "03.webp"
+      ],
+      "category": "相关学术与课程资料",
+      "images": [
+        {
+          "file": "01.webp",
+          "width": 1530,
+          "height": 1080,
+          "bytes": 244820
+        },
+        {
+          "file": "02.webp",
+          "width": 1530,
+          "height": 1080,
+          "bytes": 322280
+        },
+        {
+          "file": "03.webp",
+          "width": 1530,
+          "height": 1080,
+          "bytes": 242746
+        }
+      ]
+    },
+    {
+      "id": "6ac1b452000000001802f88d",
+      "title": "ThinkARM | ACL26 Oral",
+      "url": "https://www.xiaohongshu.com/explore/6ac1b452000000001802f88d",
+      "folder": "posts/ThinkARM _ ACL26 Oral_6ac1b452000000001802f88d",
+      "count": 4,
+      "files": [
+        "01.webp",
+        "02.webp",
+        "03.webp",
+        "04.webp"
+      ],
+      "category": "论文解读、综述与速查表",
+      "images": [
+        {
+          "file": "01.webp",
+          "width": 1526,
+          "height": 1080,
+          "bytes": 316542
+        },
+        {
+          "file": "02.webp",
+          "width": 1526,
+          "height": 1080,
+          "bytes": 219926
+        },
+        {
+          "file": "03.webp",
+          "width": 1526,
+          "height": 1080,
+          "bytes": 356724
+        },
+        {
+          "file": "04.webp",
+          "width": 1526,
+          "height": 1080,
+          "bytes": 370398
+        }
+      ]
+    },
+    {
+      "id": "6ac088e80000000015008ae9",
+      "title": "TraceDance | ByteDance | Agent行为基准",
+      "url": "https://www.xiaohongshu.com/explore/6ac088e80000000015008ae9",
+      "folder": "posts/TraceDance _ ByteDance _ Agent行为基准_6ac088e80000000015008ae9",
+      "count": 4,
+      "files": [
+        "01.webp",
+        "02.webp",
+        "03.webp",
+        "04.webp"
+      ],
+      "category": "论文解读、综述与速查表",
+      "images": [
+        {
+          "file": "01.webp",
+          "width": 1532,
+          "height": 1080,
+          "bytes": 261104
+        },
+        {
+          "file": "02.webp",
+          "width": 1532,
+          "height": 1080,
+          "bytes": 296756
+        },
+        {
+          "file": "03.webp",
+          "width": 1532,
+          "height": 1080,
+          "bytes": 218966
+        },
+        {
+          "file": "04.webp",
+          "width": 1532,
+          "height": 1080,
+          "bytes": 285776
+        }
+      ]
+    },
+    {
+      "id": "6ab9d33a000000001b02de2a",
+      "title": "UCLA: 和Agent一起做科研",
+      "url": "https://www.xiaohongshu.com/explore/6ab9d33a000000001b02de2a",
+      "folder": "posts/UCLA_ 和Agent一起做科研_6ab9d33a000000001b02de2a",
+      "count": 2,
+      "files": [
+        "01.webp",
+        "02.webp"
+      ],
+      "category": "相关学术与课程资料",
+      "images": [
+        {
+          "file": "01.webp",
+          "width": 1527,
+          "height": 1080,
+          "bytes": 252976
+        },
+        {
+          "file": "02.webp",
+          "width": 1527,
+          "height": 1080,
+          "bytes": 190484
+        }
+      ]
+    },
+    {
+      "id": "6abc623c000000001500a801",
+      "title": "World Labs产学研速查表 | AMD82亿收购",
+      "url": "https://www.xiaohongshu.com/explore/6abc623c000000001500a801",
+      "folder": "posts/World Labs产学研速查表 _ AMD82亿收购_6abc623c000000001500a801",
+      "count": 2,
+      "files": [
+        "01.webp",
+        "02.webp"
+      ],
+      "category": "论文解读、综述与速查表",
+      "images": [
+        {
+          "file": "01.webp",
+          "width": 1526,
+          "height": 1080,
+          "bytes": 201214
+        },
+        {
+          "file": "02.webp",
+          "width": 1524,
+          "height": 1080,
+          "bytes": 249694
+        }
+      ]
+    },
+    {
+      "id": "6ac2cac10000000015015aae",
+      "title": "不用 LLM 初始化，多模态该怎么预训练？",
+      "url": "https://www.xiaohongshu.com/explore/6ac2cac10000000015015aae",
+      "folder": "posts/不用 LLM 初始化，多模态该怎么预训练？_6ac2cac10000000015015aae",
+      "count": 4,
+      "files": [
+        "01.webp",
+        "02.webp",
+        "03.webp",
+        "04.webp"
+      ],
+      "category": "论文解读、综述与速查表",
+      "images": [
+        {
+          "file": "01.webp",
+          "width": 1534,
+          "height": 1080,
+          "bytes": 251600
+        },
+        {
+          "file": "02.webp",
+          "width": 1534,
+          "height": 1080,
+          "bytes": 251618
+        },
+        {
+          "file": "03.webp",
+          "width": 1534,
+          "height": 1080,
+          "bytes": 299286
+        },
+        {
+          "file": "04.webp",
+          "width": 1534,
+          "height": 1080,
+          "bytes": 228214
+        }
+      ]
+    },
+    {
+      "id": "6ac414f10000000018039e97",
+      "title": "学术报告怎么讲才不无聊？别再念 PPT 了！",
+      "url": "https://www.xiaohongshu.com/explore/6ac414f10000000018039e97",
+      "folder": "posts/学术报告怎么讲才不无聊？别再念 PPT 了！_6ac414f10000000018039e97",
+      "count": 2,
+      "files": [
+        "01.webp",
+        "02.webp"
+      ],
+      "category": "相关学术与课程资料",
+      "images": [
+        {
+          "file": "01.webp",
+          "width": 1536,
+          "height": 1080,
+          "bytes": 228358
+        },
+        {
+          "file": "02.webp",
+          "width": 1536,
+          "height": 1080,
+          "bytes": 116120
+        }
+      ]
+    }
+  ],
+  "not_included": [
+    {
+      "title": "EMNLP Main+1 Findings+1 | LLM Agent",
+      "url": "https://www.xiaohongshu.com/user/profile/6a0720ba0000000002002001/6a87fe7d00000000270288c2"
+    },
+    {
+      "title": "🇺🇸CS PhD第一年总结",
+      "url": "https://www.xiaohongshu.com/user/profile/6a0720ba0000000002002001/6a8f19ef000000001f01d464"
+    },
+    {
+      "title": "🇺🇸CS PhD第一年总结(2)",
+      "url": "https://www.xiaohongshu.com/user/profile/6a0720ba0000000002002001/6a9636d0000000002803a512"
+    },
+    {
+      "title": "🇺🇸CS PhD周记 | 26.09.07-26.09.13",
+      "url": "https://www.xiaohongshu.com/user/profile/6a0720ba0000000002002001/6aa6105e0000000012001bba"
+    },
+    {
+      "title": "Year 2 | 又是一年开学季",
+      "url": "https://www.xiaohongshu.com/user/profile/6a0720ba0000000002002001/6aa892820000000011039705"
+    },
+    {
+      "title": "常年处于一个过得太顺的环境也不好，需要一些适时的挫折来让自己找到生命中的主干道，",
+      "url": "https://www.xiaohongshu.com/user/profile/6a0720ba0000000002002001/6aaa16040000000028037e87"
+    },
+    {
+      "title": "🇺🇸CS PhD周记 | 26.09.14-26.09.20",
+      "url": "https://www.xiaohongshu.com/user/profile/6a0720ba0000000002002001/6ab09b7b00000000120013f3"
+    },
+    {
+      "title": "NeurIPS+1",
+      "url": "https://www.xiaohongshu.com/user/profile/6a0720ba0000000002002001/6ab557e2000000001802c785"
+    },
+    {
+      "title": "🇺🇸CS PhD周记 | 26.09.21-26.09.27",
+      "url": "https://www.xiaohongshu.com/user/profile/6a0720ba0000000002002001/6ab879f9000000001c00fb81"
+    },
+    {
+      "title": "MIT Phillip Isola: AI时代读博还有意义吗？",
+      "url": "https://www.xiaohongshu.com/user/profile/6a0720ba0000000002002001/6abb1f64000000001802ca68"
+    },
+    {
+      "title": "疲惫充实的一天",
+      "url": "https://www.xiaohongshu.com/user/profile/6a0720ba0000000002002001/6abb3fa7000000001500b12a"
+    },
+    {
+      "title": "Karma is real.",
+      "url": "https://www.xiaohongshu.com/user/profile/6a0720ba0000000002002001/6abc8a7b000000001500ac37"
+    },
+    {
+      "title": "把增长放在第一建设",
+      "url": "https://www.xiaohongshu.com/user/profile/6a0720ba0000000002002001/6abdeb5c0000000015009aea"
+    },
+    {
+      "title": "我这十年TMD最想要的到底是什么?",
+      "url": "https://www.xiaohongshu.com/user/profile/6a0720ba0000000002002001/6abf2aeb00000000150081e2"
+    },
+    {
+      "title": "有情人修无情道",
+      "url": "https://www.xiaohongshu.com/user/profile/6a0720ba0000000002002001/6ac05dc2000000001802cb24"
+    },
+    {
+      "title": "在美国买到了梦中情南瓜",
+      "url": "https://www.xiaohongshu.com/user/profile/6a0720ba0000000002002001/6ac07b81000000001a02a15c"
+    },
+    {
+      "title": "在美国BJ 6.99🔪一个的南瓜",
+      "url": "https://www.xiaohongshu.com/user/profile/6a0720ba0000000002002001/6ac18384000000001501765f"
+    },
+    {
+      "title": "很多事情是，做了以后，自然涌现的结果",
+      "url": "https://www.xiaohongshu.com/user/profile/6a0720ba0000000002002001/6ac1a2b0000000001c00f82b"
+    },
+    {
+      "title": "读博以来，第一次单日种树达到了9个半小时",
+      "url": "https://www.xiaohongshu.com/user/profile/6a0720ba0000000002002001/6ac1d5a2000000001b02f942"
+    },
+    {
+      "title": "长久来看，只能和自己志趣相投的人成为朋友",
+      "url": "https://www.xiaohongshu.com/user/profile/6a0720ba0000000002002001/6ac318ce000000001a0204cb"
+    },
+    {
+      "title": "每天发10+xhs帖子，有助于高效学习",
+      "url": "https://www.xiaohongshu.com/user/profile/6a0720ba0000000002002001/6ac3289d000000001c00fe6a"
+    },
+    {
+      "title": "BU | AI Evaluation & Alignment Workshop",
+      "url": "https://www.xiaohongshu.com/user/profile/6a0720ba0000000002002001/6ac579aa0000000015016dfe"
+    }
+  ]
+}

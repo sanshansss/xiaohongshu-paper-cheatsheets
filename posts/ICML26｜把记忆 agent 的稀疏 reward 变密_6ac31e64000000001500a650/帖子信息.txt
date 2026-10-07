@@ -1,0 +1,27 @@
+标题：ICML26｜把记忆 agent 的稀疏 reward 变密
+来源：https://www.xiaohongshu.com/explore/6ac31e64000000001500a650
+保存日期：2026-10-07
+
+📄 论文：Mem-T: Densifying Rewards for Long-Horizon Memory Agents
+🏛 北京大学 / 南洋理工大学等（Yue, Zhang, Peng 等）
+🎓 ICML 2026
+🔗 arXiv:2601.23014
+	
+✨ 一句话
+memory agent 要做几百次写入和检索操作，最后才拿到一个稀疏的 QA reward。
+Mem-T 是一个带分层 memory 库的 agent；训练方法 MoT-GRPO 把这个 reward 变密：
+🌲 检索端：用 memory operation tree 把叶子的 F1 回传给每个节点
+🔙 构造端：用 hindsight credit assignment 把叶子的 advantage 分给上游的写入操作
+	
+🤔 问题：长程 memory 操作的 temporal credit assignment
+在以 memory 为中心的任务里，agent 可能在百万 token、约 500 轮的上下文中执行几百次 memory 操作，之后才得到一个由零星 QA 正确率给出的 0/1 reward。
+作者指出，已有的训练方法（Memory-R1、Mem-α）把这个终局 reward 不加区分地传给所有操作，没有稠密监督，也没有过程级归因。
+	
+💡 方案：Mem-T + MoT-GRPO
+1️⃣ Mem-T：分层 memory 库（working / factual / experiential / raw）+ 三类操作：formation、evolution、多轮 retrieval
+2️⃣ MoT-GRPO（检索端）：每个 query 建多棵 Memory Operation Tree；叶子的 F1 沿树回传，成为每个节点的 dense reward；树内 + 树间两种 advantage 相加
+3️⃣ MoT-GRPO（构造端）：hindsight credit assignment 给每个写入操作打分，每类操作保留前 50%，做离线的 log-likelihood 训练
+	
+我把这篇论文整理成了一份中文速查表（方法、设置、关键数字都在里面），需要的可以看图 👀
+	
+#论文分享 #ICML2026 #Agent记忆 #AgentMemory #强化学习 #GRPO #Agent #AI论文

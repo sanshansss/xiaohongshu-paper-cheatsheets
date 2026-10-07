@@ -1,0 +1,29 @@
+标题：Agent Memory 综述｜形式、功能、动态
+来源：https://www.xiaohongshu.com/explore/6ac414a70000000018039e85
+保存日期：2026-10-07
+
+📄 论文：Memory in the Age of AI Agents: A Survey -- Forms, Functions and Dynamics
+🏛 NUS、人大、复旦、北大、NTU、Oxford 等 12 家机构（Hu, Liu, Yue, Zhang 等 47 位作者）
+📚 arXiv preprint 2025
+🔗 arXiv:2512.13564
+	
+✨ 一句话
+用三个视角整理 agent memory：
+🧱 Forms：记忆以什么形式存在（token-level / parametric / latent）
+🎯 Functions：为什么需要记忆（factual / experiential / working）
+🔄 Dynamics：记忆怎样运转（formation / evolution / retrieval）
+并说明它和 LLM memory、RAG、context engineering 的关系。这是一篇综述，没有新方法、没有实验。
+	
+🤔 问题：agent memory 研究越来越碎片化
+😵 做法差别大：都叫 “agent memory” 的工作，动机、实现、假设、评测方式各不相同
+😵 术语多：declarative、episodic、semantic、parametric memory 等定义松散
+😵 long / short-term 二分太粗：不足以描述现在系统的多样性和动态
+😵 已有 taxonomy 早于 2025 年的新方向：比如从经验中蒸馏可复用工具、memory 增强的 test-time scaling
+	
+💡 方案：Forms – Functions – Dynamics 三个视角
+	
+📏 规模：11 张图、9 张表，参考文献 490 条
+	
+我把这篇综述整理成了一份中文速查表（方法、设置、关键数字都在里面），需要的可以看图 👀
+	
+#论文分享 #综述 #Agent记忆 #AgentMemory #Agent #RAG #LLM #AI论文 #读论文 #科研日常

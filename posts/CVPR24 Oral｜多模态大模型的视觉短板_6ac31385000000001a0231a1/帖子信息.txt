@@ -1,0 +1,29 @@
+标题：CVPR24 Oral｜多模态大模型的视觉短板
+来源：https://www.xiaohongshu.com/explore/6ac31385000000001a0231a1
+保存日期：2026-10-07
+
+📄 论文：Eyes Wide Shut? Exploring the Visual Shortcomings of Multimodal LLMs
+🏛 NYU / FAIR, Meta / UC Berkeley（Tong, Liu, Zhai, Ma, LeCun, Xie）
+🏆 CVPR 2024 Oral
+🔗 arXiv:2401.06209
+	
+✨ 一句话
+Multimodal LLM 在很简单的视觉问题上会系统性地答错，根源之一在 CLIP 视觉编码器。
+作者用“CLIP 认为相似、DINOv2 认为不同”的图片对，造出 MMVP benchmark（150 对图、300 题）：
+人 95.7%，GPT-4V 38.7%，多数模型低于随机猜测（25%）😮
+	
+🤔 问题
+MLLM 的进步主要来自 LLM 的推理能力；视觉端大多只是一个现成的、冻结的 CLIP。
+最强的 GPT-4V 也会答错“狗朝左还是朝右”“看得到几只眼睛”，还会给出自洽但错误的解释。
+这些低级错误来自视觉、语言，还是两者的对齐？
+作者的假设 👉 预训练视觉模型的缺陷会传导到下游的 MLLM。
+	
+💡 方案：四步
+1️⃣ 找 CLIP-blind pair：CLIP 相似度 > 0.95、DINOv2 相似度 < 0.6 的图片对
+2️⃣ 人工给每对图写一个二选一的简单问题，一对图两题都答对才得分 → MMVP
+3️⃣ 归纳出 9 种 visual pattern（朝向、数量、位置关系、颜色、视角等），再测 CLIP 家族：10 个 CLIP 变体在其中 7 种上都不行，放大模型、数据、分辨率帮助有限
+4️⃣ Mixture-of-Features（MoF）：把 DINOv2 的 token 和 CLIP 的 token 交错送进 LLM，MMVP 从 5.5 升到 16.7，instruction following 不降
+	
+我把这篇论文整理成了一份中文速查表（筛选规则、9 种 pattern、相关性、MoF 的表都在里面），需要的可以看图 👀
+	
+#论文分享 #多模态 #CVPR2024 #大模型 #GPT4V #计算机视觉 #CLIP #AI论文 #读论文 #人工智能

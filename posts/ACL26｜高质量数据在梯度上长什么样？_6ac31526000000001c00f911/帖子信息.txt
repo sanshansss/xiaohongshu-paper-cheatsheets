@@ -1,0 +1,36 @@
+标题：ACL26｜高质量数据在梯度上长什么样？
+来源：https://www.xiaohongshu.com/explore/6ac31526000000001c00f911
+保存日期：2026-10-07
+
+📄 论文：How Instruction and Reasoning Data shape Post-Training: Data Quality through the Lens of Layer-wise Gradients
+🏛 University of Maryland / Allen Institute for AI
+🏆 ACL 2026
+🔗 arXiv:2504.10766
+	
+✨ 一句话
+对 attention 的 Q / K / V / O 投影层梯度做 SVD，发现 IFD、InsTag、Difficulty、Reward 四种数据质量指标选出的高质量数据，有共同的梯度特征：
+👉 nuclear norm 更小、effective rank 更大
+这条规律对 reasoning 数据同样成立，其中 effective rank 的区分度更好。
+	
+🤔 问题
+数据质量对 SFT 很重要，自动质量指标也很多。
+但以往工作把数据筛选当作预处理，只用下游任务表现来评价。
+两个没有回答的问题：
+1️⃣ instruction / reasoning 数据的质量，如何影响训练时的梯度？
+2️⃣ 不同的质量指标，能不能被统一？
+	
+💡 方案：逐层梯度的谱分析
+1️⃣ 用质量指标把每个数据集分成高 / 低质量各 200 条
+2️⃣ 在预训练 LLM 上，计算 SFT loss 对每层 Q、K、V、O 投影矩阵的梯度
+3️⃣ 对梯度矩阵做 SVD，看两个量：nuclear norm（幅度）和 effective rank（方向的多样性）
+4️⃣ 比较高 / 低质量、instruction / reasoning、不同模型大小与家族
+	
+📈 四条发现
+✅ 四种指标可以统一：高质量 = nuclear norm 低 + effective rank 高
+✅ effective rank 比 nuclear norm 更能区分高低质量；s1.1 的 effective rank 在所有实验中最大
+✅ 同一模型家族内，不同大小的模型梯度谱性质相近；不同家族差别很大
+✅ 同层、相邻层梯度的 cosine similarity 接近 0，不能反映数据质量
+	
+我把这篇论文整理成了一份中文速查表，需要的可以看图 👀
+	
+#论文分享 #大模型 #ACL2026 #推理模型 #NLP

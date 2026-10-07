@@ -1,0 +1,29 @@
+标题：CVPR26｜给 VLM 加短期和长期视觉记忆
+来源：https://www.xiaohongshu.com/explore/6ac31f74000000001a02aa64
+保存日期：2026-10-07
+
+📄 论文：VisMem: Latent Vision Memory Unlocks Potential of Vision-Language Models
+🏛 NUS / Fudan / Tsinghua / ZJU / USTC / vivo（Yu, Xu, Zhang 等）
+🎓 CVPR 2026
+🔗 arXiv:2511.11007
+	
+✨ 一句话
+给 VLM 外挂一个 query builder 和两个 LoRA “memory former”。
+解码时模型自己输出特殊 token 来调用记忆：短期记忆偏视觉细节，长期记忆偏抽象语义；
+former 随即生成几个 latent memory token 插回生成流。
+两阶段 GRPO：先学“记什么”，再学“何时调用哪一种”。
+	
+🤔 问题：visual processing bottleneck
+长序列自回归解码时，VLM 越来越依赖已生成的文本 context，逐渐失去对图像证据的 grounding，也缺少可复用的视觉语义知识。
+细粒度感知、多步推理、长输出的可靠性都受影响。
+已有四类做法：直接训练（SFT / RL）、image-level（生成或编辑图像）、token-level（挑选已有 visual token）、latent space（多数只在语言空间，或需要额外视觉标注）。
+	
+💡 方案：VisMem
+1️⃣ 认知心理学类比（Dennis Norris 理论）：短期记忆偏视觉，长期记忆偏抽象语义
+2️⃣ 4 个新 token：短期 / 长期各一对 invocation 与 end token，由 VLM 自己决定何时调用
+3️⃣ Query builder + 两个 LoRA memory former：生成 latent token 插入生成流，不直接改动 VLM 的核心参数
+4️⃣ 两阶段 GRPO：Stage I 训 builder 和 former（policy 冻结），Stage II 训 policy 的调用行为（memory 组件冻结）
+	
+我把这篇论文整理成了一份中文速查表（方法、设置、关键数字都在里面），需要的可以看图 👀
+	
+#论文分享 #CVPR2026 #VLM #多模态 #视觉记忆 #LatentMemory #强化学习 #AI论文 #读论文 #科研日常

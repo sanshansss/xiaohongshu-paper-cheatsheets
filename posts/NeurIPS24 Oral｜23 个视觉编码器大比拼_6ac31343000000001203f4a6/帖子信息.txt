@@ -1,0 +1,31 @@
+标题：NeurIPS24 Oral｜23 个视觉编码器大比拼
+来源：https://www.xiaohongshu.com/explore/6ac31343000000001203f4a6
+保存日期：2026-10-07
+
+📄 论文：Cambrian-1: A Fully Open, Vision-Centric Exploration of Multimodal LLMs
+🏛 New York University（Tong, Brown, Wu, Woo 等，LeCun、Saining Xie 指导）
+🏆 NeurIPS 2024 Oral
+🔗 arXiv:2406.16860
+	
+✨ 一句话
+把 MLLM 的 visual instruction tuning 当作“评测视觉表征”的新协议。
+用 23 个 vision backbone，从视觉表征、connector、数据、训练 recipe、benchmark 五个方面做实验，得到 8 条 Finding。
+据此训练的 Cambrian-1：4 个 vision encoder + SVA connector，只需 576 个 visual token。
+	
+🤔 问题
+MLLM 近期的进步主要来自更大更强的 LLM 👉 视觉部件的设计选择研究得不够。
+多数 MLLM 用的是 CLIP 系的 encoder，DINOv2 这类自监督模型缺少系统比较。
+作者的两个担忧：
+1️⃣ 过早、过多依赖语言，可能成为 shortcut
+2️⃣ 现有 benchmark 对需要 visual grounding 的真实场景指导不足
+	
+💡 方案：五个方面逐个研究
+1️⃣ Benchmark：很多题关掉视觉也能答；把 16 个 benchmark 分成 4 组，并新建 CV-Bench（2638 道人工检查的题）
+2️⃣ 视觉表征：language-supervised 的 encoder 目前最强；数据够多、再解冻 encoder，SSL 模型的差距可以缩小
+3️⃣ Connector：Spatial Vision Aggregator（SVA），带空间对齐地聚合多个 encoder 的特征
+4️⃣ 数据：Cambrian-10M 筛选成 Cambrian-7M，做来源均衡和类别配比
+5️⃣ Recipe：两阶段训练更好，adapter data 越多越好
+	
+我把这篇论文整理成了一份中文速查表（8 条 Finding、SVA、数据配比、完整结果表都在里面），需要的可以看图 👀
+	
+#论文分享 #多模态 #大模型 #MLLM

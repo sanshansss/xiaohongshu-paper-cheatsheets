@@ -1,0 +1,30 @@
+标题：500+ 篇工作｜Agentic RL 综述速览
+来源：https://www.xiaohongshu.com/explore/6ac415a9000000001500c63f
+保存日期：2026-10-07
+
+📄 论文：The Landscape of Agentic Reinforcement Learning for LLMs: A Survey
+🏛 Oxford / Shanghai AI Lab / NUS / UIUC / UCL 等 15 个机构
+📚 TMLR 2026
+🔗 arXiv:2509.02547
+	
+✨ 一句话
+把“用 RL 训练 LLM”分成两种形式化：
+👉 偏好对齐式的 PBRFT（RLHF、DPO 一类）：单步、退化的 MDP（T=1）
+👉 Agentic RL：多步、部分可观测的 POMDP
+再用“能力”（planning、tool use、memory、self-improvement、reasoning、perception）和“任务领域”两套 taxonomy 整理 500 多篇工作，并汇总环境、benchmark、框架与开放问题。
+	
+🤔 问题：什么才算 Agentic RL？
+综述给的定义：LLM 不再是为单轮输出对齐或 benchmark 分数而优化的 static conditional generator，而是嵌入序贯决策循环的 learnable policy。
+RL 赋予它 planning、reasoning、tool use、memory、self-reflection 等能力，让它在部分可观测、动态的环境里产生长程行为。
+📍 在范围内：RL 如何在动态环境中增强 LLM agent
+📍 不在范围内：用于价值对齐的 RL、不基于 LLM 的传统 RL（如 MARL）、只为提高静态 benchmark 成绩的 RL
+	
+💡 方案：一张表看懂 PBRFT vs. Agentic RL
+🔹 State：单个 prompt，episode 立即结束 ➡️ 多步状态，只能看到部分观测
+🔹 Action：纯文本 ➡️ 文本 + 环境动作
+🔹 Transition：确定性地走到终止 ➡️ 动态的环境转移
+🔹 Reward：单个标量 ➡️ 逐步 reward（稀疏的任务 reward + 稠密的子 reward）
+	
+我把这篇综述整理成了一份中文速查表（方法、设置、关键数字都在里面），需要的可以看图 👀
+	
+#论文分享 #综述 #强化学习 #AgenticRL #Agent #LLM #大模型 #AI论文 #读论文 #科研日常

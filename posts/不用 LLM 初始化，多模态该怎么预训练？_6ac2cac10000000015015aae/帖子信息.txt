@@ -1,0 +1,32 @@
+标题：不用 LLM 初始化，多模态该怎么预训练？
+来源：https://www.xiaohongshu.com/explore/6ac2cac10000000015015aae
+保存日期：2026-10-07
+
+📄 论文：Beyond Language Modeling: An Exploration of Multimodal Pretraining
+🏛 FAIR, Meta / NYU（Tong, Fan, Nguyen 等，LeCun、Saining Xie 等共同指导）
+🏆 ICML 2026 Spotlight
+🔗 arXiv:2603.03276
+	
+✨ 一句话
+不从预训练 LLM 出发，而是从零训练一个统一模型：文本做 next-token prediction，视觉做 flow matching。
+每次只改一个变量，系统地回答“原生多模态预训练到底该怎么做”。
+	
+🤔 问题
+现在多数统一模型（比如 BAGEL、Mogao）都是先拿一个预训练好的 LLM，再适配成多模态。
+但 LLM 里已有的知识是个混杂变量 👉 分不清哪些能力来自联合训练，哪些是继承来的。
+所以 vision 和 language 之间的训练动力学、scaling 关系，一直没人说得清。
+	
+💡 方案：论文给出的 4 条建议
+1️⃣ 统一视觉表示：用 RAE（SigLIP 2），一个 encoder 同时胜任理解和生成
+2️⃣ 拥抱多样数据：多模态一起训不伤语言能力，还有跨模态的协同
+3️⃣ 解锁 world modeling：把动作写成文本、不改模型结构，能力就从通用预训练里涌现
+4️⃣ 用 MoE：高效扩展，自动学出模态分工，还能缩小两种模态的 scaling 差距
+	
+📈 外加一条 scaling law：vision 比 language 更吃数据
+	
+📝 小提示
+全文是监督式预训练（cross-entropy + flow matching），没有 RL、没有 reward；world model 用 CEM 做 zero-shot planning 来评测。
+	
+我把这篇论文整理成了一份中文速查表（方法、设置、关键数字、消融都在里面），需要的可以看图 👀
+	
+#论文分享 #多模态 #ICML2026 #大模型 #预训练 #worldmodel #AI论文 #读论文 #科研日常 #人工智能

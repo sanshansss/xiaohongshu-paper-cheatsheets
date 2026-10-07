@@ -1,0 +1,5 @@
+标题：AC2: Trust the Critic More | 斯坦福大学
+来源：https://www.xiaohongshu.com/explore/6ac1c20f000000001301a880
+保存日期：2026-10-07
+
+#人工智能 #RL #GRPO

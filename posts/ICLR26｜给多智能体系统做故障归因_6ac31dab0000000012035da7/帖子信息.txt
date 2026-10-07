@@ -1,0 +1,29 @@
+标题：ICLR26｜给多智能体系统做故障归因
+来源：https://www.xiaohongshu.com/explore/6ac31dab0000000012035da7
+保存日期：2026-10-07
+
+📄 论文：AgenTracer: Who Is Inducing Failure in the LLM Agentic Systems?
+🏛 NUS / CUHK / OPPO / NTU（Zhang, Wang, Chen 等）
+🎓 ICLR 2026
+🔗 arXiv:2509.03312
+	
+✨ 一句话
+多智能体系统失败时，找出“哪个 agent 在哪一步”犯了决定性错误。
+作者用 counterfactual replay + programmatic fault injection 自动标注了 2,476 条失败 trajectory（TracerTraj-2.5K），
+再用带 multi-granular reward 的 GRPO 训练 Qwen3-8B，得到 AgenTracer-8B。
+	
+🤔 问题：多智能体系统的 failure attribution
+多 agent + 工具 + 协议让系统更强，也更容易失败：MAST 研究报告常见框架的失败率最高达 86.7%。
+😵 定位错误目前主要靠人工读很长的日志
+😵 Who&When 用 o1、DeepSeek-R1 等模型做自动归因，论文引述其准确率低于 10%
+😵 人工标注数据很少：MAST 200 条，Who&When 127 条
+	
+💡 方案：标注管线 + 小模型 tracer
+1️⃣ Counterfactual replay：对失败的 trajectory 逐步给出最小修正并重放，第一个能把失败变成成功的步骤就是出错点
+2️⃣ Programmatic fault injection：往成功的 trajectory 里注入错误，如果导致失败，注入点就是已知的出错点
+3️⃣ RL 训练 AgenTracer-8B：GRPO（无 KL、动态 clip），reward = format 门控 ×（step 高斯核 + agent 0/1）
+4️⃣ 用作反馈：把 tracer 的诊断注入 MaAS / OWL / MetaGPT 的下一轮求解，论文报告提升 4.8～14.2%
+	
+我把这篇论文整理成了一份中文速查表（方法、设置、关键数字都在里面），需要的可以看图 👀
+	
+#论文分享 #ICLR2026 #多智能体 #MultiAgent #Agent #强化学习 #GRPO #AI论文 #读论文 #科研日常

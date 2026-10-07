@@ -1,0 +1,30 @@
+标题：ICML26｜让 agent 的记忆架构也能进化
+来源：https://www.xiaohongshu.com/explore/6ac31e02000000001203db69
+保存日期：2026-10-07
+
+📄 论文：MemEvolve: Meta-Evolution of Agent Memory Systems
+🏛 OPPO AI Agent Team / LV-NUS lab
+🎓 ICML 2026
+🔗 arXiv:2512.18746
+	
+✨ 一句话
+把 agent memory 拆成 encode / store / retrieve / manage 四个可编程模块。
+🔁 内循环：照常积累经验
+🧬 外循环：LLM 读执行日志，诊断并重写 memory 架构的代码（diagnose-and-design），按 performance / cost / delay 做 Pareto 选择
+配套代码库 EvolveLab 统一实现了 12 个已有的 memory 系统。
+	
+🤔 问题：memory 架构是静态的
+现有的 self-improving memory（ExpeL、AWM、Dynamic Cheatsheet、SkillWeaver 等）都是人工设计的固定流水线：经验在积累，但“怎样从经验中学习”不变。
+作者的立场：“no universally optimal memory architecture exists”
+👉 提炼 API 的 memory 适合 web browsing，对数学和科学推理帮助有限
+👉 基于 self-critique 的 memory 适合推理，在 coding 和 tool-use 上效果下降
+	
+💡 方案：MemEvolve + EvolveLab
+1️⃣ 模块化 design space：每个 memory 系统由四个模块组成，看作一个 “genotype”
+2️⃣ Dual evolution：内循环 = 经验进化（往 memory 里写内容）；外循环 = 架构进化（改 memory 的实现）
+3️⃣ Diagnose-and-Design：Pareto 选出父代 → 读轨迹诊断缺陷 → 只在接口允许的位置重新设计四个模块
+4️⃣ EvolveLab：12 个已有系统统一到同一个接口下，也作为统一的测评平台
+	
+我把这篇论文整理成了一份中文速查表（方法、设置、关键数字都在里面），需要的可以看图 👀
+	
+#论文分享 #ICML2026 #Agent记忆 #AgentMemory #Agent #自进化 #LLM
